@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Prog2 {
+public class Prog2_Scanner_ {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int a,b,c;
@@ -8,7 +8,12 @@ public class Prog2 {
         a=s.nextInt();
         b=s.nextInt();
         c=a+b;
-        System.out.println("Sum of two numbers"+  "=" + c );
+        System.out.println("Sum of two numbers"+  " = " + c );
+        System.out.println("Enter your name to allot number:");
+        String name;
+        name = s.nextLine();
+        System.out.println(name + c);
+
     }
 }
 
