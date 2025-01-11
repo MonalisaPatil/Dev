@@ -25,4 +25,4 @@ public class Prog10_Strings {
 //String constant pool
 //NEW is used to create in HEAP
 //Literals also occupy space
-
+//One Object like "Java" can have two references
