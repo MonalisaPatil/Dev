@@ -1,4 +1,4 @@
-public class Prog10_ {
+public class Prog11_ {
     public static void main(String [] args){
 
     }
