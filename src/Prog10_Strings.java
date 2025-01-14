@@ -20,7 +20,7 @@ public class Prog10_Strings {
         //STRING METHOD PRACTICE::
         String str4= "Mona";
         String str5= str4.substring(1,3);
-        System.out.println(str5);
+        System.out.println(str5+str4);
 
     }
 }
