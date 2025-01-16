@@ -20,8 +20,20 @@ public class Prog10_Strings {
         //STRING METHOD PRACTICE::
         String str4= "Mona";
         String str5= str4.substring(1,3);
-        System.out.println(str5+str4);
+        System.out.println(str5+" "+str4);
+        String str6= "I love Igloo";
+        System.out.println(str6.indexOf("I",4));
+        System.out.println(str4.compareTo(str6));
 
+        String st1 ="Pyramid";
+        String st2 ="pyramid";
+        String st3 =new String("Pyramid");
+        System.out.println(st1==st2);
+        System.out.println(st1==st3);//Reference/ address will be checked
+        System.out.println(st1.equals(st2));
+        System.out.println(st1.equals(st3));//checks containts
+        System.out.println(st1.compareTo(st3));
+        System.out.println(st1.equalsIgnoreCase(st2));
     }
 }
 //Constructor for creating Strings::
