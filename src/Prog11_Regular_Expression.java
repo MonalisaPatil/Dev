@@ -14,6 +14,11 @@ public class Prog11_Regular_Expression {
         System.out.println(str4.matches(".*"));
         String str5 = "SJ0724MP";
         System.out.println(str5.matches("[A-Z][0-9]*"));
+        String str6 ="a!B$c@1#2$3%4";
+        System.out.println(str6.replaceAll("[^a-zA-Z0-9]"," "));
+        String str7 =" abc de   fgh   ijk";
+        System.out.println(str7.replaceAll("\\s+"," ").trim());
+        String word[] = str7.split("\\s");
 
 
 
