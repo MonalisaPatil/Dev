@@ -22,7 +22,6 @@ public class Main {
 //        result = n%2 == 0 ? 10 : 20;
        // result = n++ && y-- <? 10 : 20;
 
-        System.out.println(x);
-        System.out.println(y);
+
     }
 }

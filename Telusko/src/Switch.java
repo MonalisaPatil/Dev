@@ -26,5 +26,8 @@ public class Switch {
         default:
             System.out.println("Invalid Input");
     }
+     int ip = 7;
+
+
     }
 }

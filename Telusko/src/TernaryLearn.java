@@ -13,6 +13,12 @@ public class TernaryLearn {
 //            }
         System.out.println(x);
         System.out.println(y);
+
+                int n = 5;
+        int m = 6;
+        int result =0;
+
+        result = n%2 == 0 ? 10 : 20;
       }
     }
 
